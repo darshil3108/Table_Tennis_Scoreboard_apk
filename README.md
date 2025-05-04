@@ -1,16 +1,12 @@
-# table_tennis_scoreboard
+Table Tennis Scoreboard App (Flutter)
+This Flutter-based mobile app is designed to track scores for a table tennis game. Users can customize the number of sets and points required for each set, and add points either through speech recognition or manual input.
 
-A new Flutter project.
+Key Features:
+Customizable Settings: Set the number of sets and points per set for your game.
 
-## Getting Started
+Voice Recognition: Add points by saying "Team A" or "Team B" using speech recognition.
 
-This project is a starting point for a Flutter application.
+Manual Input: Alternatively, users can manually add points for both teams during the game.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Note:
+Speech Recognition: Due to the lack of a live server, speech recognition does not work in the mobile APK. The app cannot connect to a server to process voice commands in real-time, which prevents the voice input functionality from working on the mobile version. Users can still manually add points if the speech recognition feature is unavailable
